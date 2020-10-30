@@ -1,0 +1,22 @@
+<map>
+  <options>
+    <cache path="cache_dir" type="filesystem" />
+    <terrain color="#00263aff" driver="rex" first_lod="0" high_resolution_first="true" skirt_ratio="0.2" tile_size="17" />
+  </options>
+  <TMSImage name="Imagery">
+        <url>http://readymap.org/readymap/tiles/1.0.0/22/</url>
+    </TMSImage>
+	 <TMSElevation name="ReadyMap 90m Elevation">
+     <url>http://readymap.org/readymap/tiles/1.0.0/116/</url>
+     <vdatum>egm96</vdatum>
+ </TMSElevation>
+  <image driver="tms" enabled="true" name="earth_info" url="D:/3d_map/earth_data/earth_info/tms.xml">
+    <cache_policy usage="no_cache" />
+  </image>
+  <image attenuation_range="2500000" driver="tms" enabled="true" min_range="2400000" name="basic" url="D:/3d_map/earth_data/basic/tms.xml" visible="true">
+    <cache_policy usage="no_cache" />
+  </image>
+  <image driver="tms" enabled="true" name="streets" url="D:/3d_map/earth_data/streets/tms.xml" visible="true">
+    <cache_policy usage="no_cache" />
+  </image>
+</map>
