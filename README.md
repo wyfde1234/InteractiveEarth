@@ -1,6 +1,8 @@
 # InteractiveEarth
 osgearth QT(plane model navigation, earth elevation, GIS measurement)
 
+Screenshots are available on Wiki page
+
 All files and folders in master branch is needed to put in data folder of main branch
 
 Dependencies:
